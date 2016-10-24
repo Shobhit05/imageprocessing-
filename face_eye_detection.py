@@ -1,4 +1,4 @@
-#BEFORE THIS U MAKE SURE THAT U HAVE HAARCASCADE FILES(EYE AND FACE THIS TIME) IN YOUR CURRENT DIRECTORY
+#BEFORE THIS U MAKE SURE THAT U HAVE HAARCASCADE FILES(EYE AND FACE THIS TIME) AND IMAGE IN YOUR CURRENT DIRECTORY
 
 
 
@@ -7,7 +7,7 @@ import cv2
 face = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 eye = cv2.CascadeClassifier('haarcascade_eye.xml')
      
-image = cv2.imread('nit1.jpg')
+image = cv2.imread('nit.jpg')
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
 
